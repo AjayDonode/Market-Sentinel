@@ -1,0 +1,46 @@
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.eggs/
+
+# ── Virtual environments ────────────────────────────────
+.venv/
+.venv.bak*/
+trading_env/
+venv/
+env/
+
+# ── Secrets & credentials  ← NEVER commit these ────────
+.env
+.env.*
+!.env.example
+src/market_sentinel/.env
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# ── Logs & generated data  ─────────────────────────────
+logs/
+*.log
+*.csv
+*.json
+# (remove the two lines above if you DO want to commit JSON/CSV files
+#  that don't contain personal data — just be explicit about which ones)
+
+# ── macOS ───────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ── IDE ─────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
